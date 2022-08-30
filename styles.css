@@ -239,21 +239,17 @@ h2 {
     .menu-buttons {
         width: 210px;
         height: 176px;
-        /* display: flex;
-        flex-direction: column;
-        align-items: center; */
         background-color: white;
         padding: 30px;
         margin-right: 0px;
         margin-bottom: 20px;
         border-radius: 10px;
-
     }
 
     .menu-button {
         margin-bottom: 30px;
         font-size: 20px;
-        border: 1px solid rgb(232, 232, 231, 1);
+        border: 1px solid rgb(0, 0, 0);
     }
 
     .matches {
