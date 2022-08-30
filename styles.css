@@ -17,10 +17,16 @@ body {
     margin-right: auto;
     margin-left: auto;
     border-radius: 30px;
+    overflow: hidden;
 }
 
 .top-banner img {
     width: 80%;
+}
+
+.top-banner:hover img {
+    scale: 1.1;
+    transition: 5s;
 }
 
 .banner-part1 {
@@ -52,9 +58,10 @@ a {
     width: 50%;
     display: flex;
     align-items: flex-end;
+
 }
 
-/* artilces */
+/* articles */
 .menu-buttons {
     width: 252px;
     height: 252px;
@@ -139,6 +146,10 @@ article img {
 
 }
 
+.special-button {
+    display: none;
+}
+
 /* fotter styles */
 footer {
     background-color: black;
@@ -155,6 +166,19 @@ h2 {
 .footer-options {
     display: flex;
     justify-content: space-around;
+}
+
+/* -----------------------live-match page styles--------------------------- */
+.flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 53px 30px 20px 30px;
+}
+
+.schedule {
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 /* responsive styles for tab  */
@@ -266,5 +290,91 @@ h2 {
     }
 
 
+
+}
+
+/* responsive styles for tab  */
+@media screen and (min-width: 577px) and (max-width:992px) {
+    body {
+        margin: 0px;
+    }
+
+    .top-banner {
+        background-color: rgb(22, 22, 22);
+        display: flex;
+        color: white;
+        width: 95%;
+        height: 398px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 30px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 2em;
+    }
+
+    .menu-buttons {
+        width: 100%;
+        height: 64px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        padding: 30px;
+        margin-right: 24px;
+        border-radius: 10px;
+    }
+
+    .menu-button {
+        margin-bottom: 30px;
+        padding: 15px 50px;
+        font-size: 20px;
+    }
+
+    .article-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+    }
+
+    .article-grids {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 24px;
+        grid-column-gap: 24px;
+        margin-left: 0px;
+
+    }
+
+    .special-button {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 12px 29px;
+        margin-top: 50px;
+    }
+
+    footer {
+        width: auto;
+        padding: 70px 100px;
+    }
+
+    .footer-options {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-options p {
+        font-size: small;
+    }
 
 }
