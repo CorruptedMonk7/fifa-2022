@@ -168,6 +168,18 @@ h2 {
     justify-content: space-around;
 }
 
+.social-links {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
 /* -----------------------live-match page styles--------------------------- */
 .flag {
     display: flex;
