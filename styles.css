@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 /* top banner */
@@ -46,4 +47,102 @@ button {
     width: 50%;
     display: flex;
     align-items: flex-end;
+}
+
+/* artilces */
+.menu-buttons {
+    width: 252px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 30px;
+    margin-right: 24px;
+    border-radius: 10px;
+}
+
+.menu-button {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+article img {
+    width: 100%;
+}
+
+.transfer-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px 16px;
+    width: 70px;
+}
+
+.transfer-live {
+    margin: 20px 20px 0px 20px;
+
+}
+
+.article-overview {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    width: 50%;
+}
+
+.article-overview img {
+    width: 40%;
+    height: 35%;
+}
+
+.time-class {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+}
+
+.article-section {
+    display: grid;
+    grid-template-columns: 312px 1fr;
+    margin-top: 130px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.article-grids {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    margin-left: 24px;
+
+}
+
+/* fotter styles */
+footer {
+    background-color: black;
+    color: white;
+    padding: 100px 350px 50px 350px;
+    margin-top: 130px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.footer-options {
+    display: flex;
+    justify-content: space-around;
 }
